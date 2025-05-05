@@ -130,10 +130,7 @@ function updateDashboard() {
     updatePieChart();
     updateBarChart();
     updateLineChart();
-    updateScatterPlot();
-    updateWorldMap();
     updateIndustryBarChart();
-    updateScatterPlot2(); 
 }
 
 // Mise à jour des indicateurs

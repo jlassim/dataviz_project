@@ -69,7 +69,7 @@
     <section class="visualizations-section">
         <div class="viz-card wide">
             <h2>Investissement par secteur et pays</h2>
-            <div class="tooltip" id="bubble-tooltip" role="tooltip" aria-hidden="true"></div>
+            <div id="bubble-tooltip" class="tooltip" style="position: absolute; opacity: 0;"></div>
             <div id="bubble-chart" class="chart-container" tabindex="0" aria-label="Graphique à bulles montrant l'investissement par secteur et pays"></div>
             <div class="chart-legend" id="bubble-legend" aria-label="Légende pour le graphique à bulles"></div>
         </div>
@@ -89,7 +89,7 @@
         <div id="industry-display" style="margin-top: 1em; font-weight: bold;"></div>
 
         <div class="viz-card wide">
-            <h2>Évolution temporelle des investissements</h2>
+            <h2>Évolution temporelle des investissements/ valorisation</h2>
             <div class="tooltip" id="line-tooltip" role="tooltip" aria-hidden="true"></div>
             <div id="line-chart" class="chart-container" tabindex="0" aria-label="Graphique linéaire montrant l'évolution des investissements au fil du temps"></div>
             <div class="chart-controls">
